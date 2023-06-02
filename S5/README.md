@@ -188,3 +188,6 @@ Epoch 20
 Train: Loss=0.0047 Batch_id=117 Accuracy=99.17: 100%|██████████| 118/118 [03:09<00:00,  1.61s/it]
 Test set: Average loss: 0.0204, Accuracy: 9934/10000 (99.34%)
 ```
+---
+# References
+Special thanks to [Rohan Shravan](https://www.linkedin.com/in/rohanshravan/) for his guidance.
