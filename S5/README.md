@@ -15,11 +15,11 @@ In this assigment we have divided the single code into following modular files. 
 ### Details of module files
 #### 1. utils
 This file contains utility functions for data download, data transforms and calculating count of correct predictions.
-```
+```python
 def download_and_get_data(train = True):
     return datasets.MNIST('../data', train=train, download=True, transform=get_transforms(train=train))
 ```
-```
+```python
 def get_transforms(train = True):
     if train:
         return transforms.Compose([
@@ -35,7 +35,7 @@ def get_transforms(train = True):
                 transforms.Normalize((0.1307,), (0.3081,)) ## change 1
             ])
 ```
-```
+```python
 def GetCorrectPredCount(pPrediction, pLabels):
   return pPrediction.argmax(dim=1).eq(pLabels).sum().item()
 ```
