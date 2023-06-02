@@ -181,7 +181,7 @@ Params size (MB): 2.26
 Estimated Total Size (MB): 2.93
 ----------------------------------------------------------------
 ```
-Finally reached <b>99.34%</b> accuracy on test images
+Finally reached <b>99.34%</b> accuracy on test images in 20 epochs.
 ```
 Adjusting learning rate of group 0 to 1.0000e-03.
 Epoch 20
