@@ -191,3 +191,4 @@ Test set: Average loss: 0.0204, Accuracy: 9934/10000 (99.34%)
 ---
 # References
 Special thanks to [Rohan Shravan](https://www.linkedin.com/in/rohanshravan/) for his guidance.
+Do checkout his AI courses on [THE SCHOOL OF AI](https://theschoolof.ai/)
