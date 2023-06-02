@@ -11,3 +11,6 @@ In this assigment we have divided the single code into foloowing modular files. 
 - [utils.py](https://github.com/pratikiiitb2013/ERA/blob/main/S5/utils.py)
 - [model.py](https://github.com/pratikiiitb2013/ERA/blob/main/S5/model.py)
 - [ERAS5_pratik.ipynb](https://github.com/pratikiiitb2013/ERA/blob/main/S5/ERAS5_pratik.ipynb)
+
+### Details of module files
+#### 1. utils
