@@ -181,3 +181,10 @@ Params size (MB): 2.26
 Estimated Total Size (MB): 2.93
 ----------------------------------------------------------------
 ```
+Finally reached <b>99.34%</b> accuracy on test images
+```
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 20
+Train: Loss=0.0047 Batch_id=117 Accuracy=99.17: 100%|██████████| 118/118 [03:09<00:00,  1.61s/it]
+Test set: Average loss: 0.0204, Accuracy: 9934/10000 (99.34%)
+```
