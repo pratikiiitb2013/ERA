@@ -39,7 +39,7 @@ def get_transforms(train = True):
 def GetCorrectPredCount(pPrediction, pLabels):
   return pPrediction.argmax(dim=1).eq(pLabels).sum().item()
 ```
-#### 1. model
+#### 2. model
 This file contains model class and 2 functions for train and test.
 ```python
 class Net(nn.Module):
@@ -125,4 +125,35 @@ def test(model, device, test_loader):
     print('Test set: Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)\n'.format(
         test_loss, correct, len(test_loader.dataset),
         100. * correct / len(test_loader.dataset)))
+```
+#### 3. ERAS5_pratik
+This is the main code where we will be calling modules to train and test the model.
+We first import modules from other files.
+```python
+from utils import get_transforms
+from utils import download_and_get_data
+from model import Net, train, test
+```
+Then we create data transforms by using imported function
+```python
+train_transforms = get_transforms(train=True)
+test_transforms = get_transforms(train=False)
+```
+Then we download the train and test data
+```python
+train_data = download_and_get_data(train=True)
+test_data = download_and_get_data(train=False)
+```
+Finally, we create model object by calling importted class 'Net'. Define optimizer and scheduler. And call train and test funtions.
+```python
+model = Net().to(device)
+optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
+scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=15, gamma=0.1, verbose=True)
+num_epochs = 20
+
+for epoch in range(1, num_epochs+1):
+  print(f'Epoch {epoch}')
+  train(model, device, train_loader, optimizer)
+  test(model, device, test_loader)
+  scheduler.step()
 ```
