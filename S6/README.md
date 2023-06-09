@@ -79,3 +79,6 @@ Part 1 - Working Backpropagation on excel
  <b>Note: We have used derivative of sigmoid function  as :
   {1/(1+exp(-x))}*{1 - (1/(1+exp(-x)))} = σ(x)*(1-σ(x))</b>
   
+#### Variation in Error as we increaseLR [0.1, 0.2, 0.5, 0.8, 1.0, 2.0]
+
+![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S6/images/different_LR_backprop.JPG)
