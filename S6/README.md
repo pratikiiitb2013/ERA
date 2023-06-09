@@ -151,6 +151,7 @@ class Net(nn.Module):
 ```
 
 #### Model summary
+We have used a simple model with following architecture with <b>17,130</b> parameters.
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
@@ -191,3 +192,33 @@ Forward/backward pass size (MB): 0.54
 Params size (MB): 0.07
 Estimated Total Size (MB): 0.61
 ```
+
+Finally reached <b>99.51%</b> accuracy on test images in 20 epochs.
+```
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 17
+Train: Loss=0.0151 Batch_id=468 Accuracy=98.20: 100%|██████████| 469/469 [00:54<00:00,  8.61it/s]
+Test set: Average loss: 0.0001, Accuracy: 9950/10000 (99.50%)
+
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 18
+Train: Loss=0.1117 Batch_id=468 Accuracy=98.24: 100%|██████████| 469/469 [02:38<00:00,  2.95it/s]
+Test set: Average loss: 0.0001, Accuracy: 9951/10000 (99.51%)
+
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 19
+Train: Loss=0.0971 Batch_id=468 Accuracy=98.32: 100%|██████████| 469/469 [01:28<00:00,  5.32it/s]
+Test set: Average loss: 0.0002, Accuracy: 9948/10000 (99.48%)
+
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 20
+Train: Loss=0.0445 Batch_id=468 Accuracy=98.33: 100%|██████████| 469/469 [03:01<00:00,  2.58it/s]
+Test set: Average loss: 0.0001, Accuracy: 9951/10000 (99.51%)
+
+Adjusting learning rate of group 0 to 1.0000e-03.
+```
+---
+# References
+Special thanks to [Rohan Shravan](https://www.linkedin.com/in/rohanshravan/) for his guidance.
+Do checkout his AI courses on [THE SCHOOL OF AI](https://theschoolof.ai/)
+
