@@ -76,8 +76,8 @@ Part 1 - Working Backpropagation on excel
   - We then extend this table till a significant number of levels so that we could observe that E_Total is decreasing with each level and activated outputs a_o1 and a_o2 move more closure to the expected target t1 and t2.
   - Select the column for E_Total and create a graph to observe the pattern of decreasing E_Total.
  
- <b>Note: We have used derivative of sigmoid function  as :
-  {1/(1+exp(-x))}*{1 - (1/(1+exp(-x)))} = σ(x)*(1-σ(x))</b>
+ <i>Note: We have used derivative of sigmoid function  as :
+  {1/(1+exp(-x))}*{1 - (1/(1+exp(-x)))} = σ(x)*(1-σ(x))</i>
  
  
  
