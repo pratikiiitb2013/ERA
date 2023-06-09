@@ -11,12 +11,12 @@ Part 1 - Working Backpropagation on excel
 
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S6/images/Network_backprop.JPG)
 
-Computation Snippet(Refer [attached excel](https://github.com/pratikiiitb2013/ERA/blob/main/S6/BackProp_PratikPractice.xlsx) for details)
+#### Computation Snippet(Refer [attached excel](https://github.com/pratikiiitb2013/ERA/blob/main/S6/BackProp_PratikPractice.xlsx) for details)
 
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S6/images/Calculations_backprop.JPG)
 
 
-Major Steps:
+#### Major Steps:
   - Design the neural network as shown in above screenshot, with the given inputs, targets and initial weights.
   - Next major step is to calculate the h1,h2, and the activated h1 and h2 that is nothing but sigmoid of h1 and h2 respectively as we are using activation function as Sigmoid.
   - similarly we calulate o1,o2 and the coressponding activated values.
@@ -27,8 +27,8 @@ Major Steps:
       - h2 = w3 * i1 + w4 * i2
       - a_h1 = σ(h1) = 1/(1+exp(-h1))
       - a_h2 = σ(h2)
-      - o1 = w5*a_h1+w6*a_h2
-      - o2 = w7*a_h1+w8*a_h2
+      - o1 = w5 * a_h1 + w6 * a_h2
+      - o2 = w7 * a_h1 + w8 * a_h2
       - a_o1 = σ(o1)
       - a_o2 = σ(o2)
       - E1 = ½*(t1 - a_o1)²
