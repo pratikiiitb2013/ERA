@@ -81,7 +81,5 @@ Part 1 - Working Backpropagation on excel
  
  
  
-Variation in Error as we increaseLR [0.1, 0.2, 0.5, 0.8, 1.0, 2.0]
----
-
+#### Variation in Error as we increaseLR [0.1, 0.2, 0.5, 0.8, 1.0, 2.0]
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S6/images/different_LR_backprop.JPG)
