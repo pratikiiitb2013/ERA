@@ -11,7 +11,7 @@ Simple Neural net architecture for Excel
 
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S6/images/Network_backprop.JPG)
 
-Computation Snippet(Refer [attached excel](https://github.com/pratikiiitb2013/ERA/blob/main/S6/BackProp_PratikPractice.xlsx) for details
+Computation Snippet(Refer [attached excel](https://github.com/pratikiiitb2013/ERA/blob/main/S6/BackProp_PratikPractice.xlsx) for details)
 
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S6/images/Calculations_backprop.JPG)
 
