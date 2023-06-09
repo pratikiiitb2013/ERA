@@ -23,17 +23,17 @@ Major Steps:
   - Now the next step is to understand that total Error is the combination of two components coming from two branches and is denoted by E1 and E2.
   - This E1 and E2 is the Mean square error, that is calulated as the square of the difference between expected output and actual output along the two branches. Here 1/2 is included just for simplicity of calulation while taking derivatives.
   - Following equations can be derived :
-      h1 = w1*i1+w2*i2
-      h2 = w3*i1+w4*i2
-      a_h1 = σ(h1) = 1/(1+exp(-h1))
-      a_h2 = σ(h2)
-      o1 = w5*a_h1+w6*a_h2
-      o2 = w7*a_h1+w8*a_h2
-      a_o1 = σ(o1)
-      a_o2 = σ(o2)
-      E1 = ½*(t1 - a_o1)²
-      E2 = ½*(t2 - a_o2)²
-      E_Total = E1 + E2
+      - h1 = w1*i1+w2*i2
+      - h2 = w3*i1+w4*i2
+      - a_h1 = σ(h1) = 1/(1+exp(-h1))
+      - a_h2 = σ(h2)
+      - o1 = w5*a_h1+w6*a_h2
+      - o2 = w7*a_h1+w8*a_h2
+      - a_o1 = σ(o1)
+      - a_o2 = σ(o2)
+      - E1 = ½*(t1 - a_o1)²
+      - E2 = ½*(t2 - a_o2)²
+      - E_Total = E1 + E2
       
   - Now with backpropagation we move in backward direction, calculating the rate of change in total error with respect individual weights keeping other weights as constant.
   - We first calculate δE_t/δw5, here we see that w5 has impact only along the path E1 and by using chain rule we can rewrite the equation as : (δE1/δa_o1)*(δa_o1/δo1)*(δo1/δw5)
