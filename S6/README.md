@@ -23,8 +23,8 @@ Major Steps:
   - Now the next step is to understand that total Error is the combination of two components coming from two branches and is denoted by E1 and E2.
   - This E1 and E2 is the Mean square error, that is calulated as the square of the difference between expected output and actual output along the two branches. Here 1/2 is included just for simplicity of calulation while taking derivatives.
   - Following equations can be derived :
-      - h1 = w1*i1+w2*i2
-      - h2 = w3*i1+w4*i2
+      - h1 = w1 * i1 + w2 * i2
+      - h2 = w3 * i1 + w4 * i2
       - a_h1 = σ(h1) = 1/(1+exp(-h1))
       - a_h2 = σ(h2)
       - o1 = w5*a_h1+w6*a_h2
