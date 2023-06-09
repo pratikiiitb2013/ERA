@@ -87,3 +87,4 @@ Part 1 - Working Backpropagation on excel
 
 Part 2 - Better model with <20k paramemters
 ------
+We have used the modular codes as earlier. Out main code runs in [ERAS6_pratik.ipynb](https://github.com/pratikiiitb2013/ERA/blob/main/S6/ERAS6_pratik.ipynb) file where we will be calling classes and functions from other 2 files, [utils.py](https://github.com/pratikiiitb2013/ERA/blob/main/S6/utils.py) and [model.py](https://github.com/pratikiiitb2013/ERA/blob/main/S6/model.py)
