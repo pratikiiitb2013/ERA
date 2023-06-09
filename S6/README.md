@@ -8,6 +8,7 @@
 Part 1 - Working Backpropagation on excel
 ------
 Simple Neural net architecture for Excel
+
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S6/images/Network_backprop.JPG)
 
 
