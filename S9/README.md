@@ -17,3 +17,6 @@ Write a new network that
     - shiftScaleRotate
     - coarseDropout (max_holes = 1, max_height=16px, max_width=16, min_holes = 1, min_height=16px, min_width=16px, fill_value=(mean of your dataset), mask_fill_value = None)
 - achieve 85% accuracy, as many epochs as you want. Total Params to be less than 200k.
+
+Model Architecture
+------
