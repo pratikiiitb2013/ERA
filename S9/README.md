@@ -30,3 +30,6 @@ As shown in below image, following architecture is followed
 - OB has  normal conv + dilated conv with padding -> depthwise -> GAP -> (1X1 to #classes)
 <img src="https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/model_architechture.png" alt="drawing" width="50%" height="50%"/>
 
+Image AUgmentation Impelmetation Exapmles
+-------
+![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/augmented_images.png)
