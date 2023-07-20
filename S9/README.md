@@ -20,5 +20,7 @@ Write a new network that
 
 Model Architecture
 ------
+As shown in below image, following architecture is followed
+- 4 blocks -> [CB1][CB2][CB3][OB]
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/model_architechture.png)
 
