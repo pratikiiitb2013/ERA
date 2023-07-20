@@ -25,7 +25,7 @@ As shown in below image, following architecture is followed
 - Each of CB1, CB2 and CB3 contains
   - normal conv + dilated conv with padding
   - depthwise conv
-  - transition layer -> 1X1 + dilated conv without padding(instead of MP)
+  - transition layer -> 1X1 followed by dilated conv without padding(instead of MP)
 - <b>Also, added input of each block CB1, CB2, CB3 to output of respective block through a skip connection 1X1 layer using stride of 2. 
 <img src="https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/model_architechture.png" alt="drawing" width="50%" height="50%"/>
 
