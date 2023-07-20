@@ -23,7 +23,7 @@ Model Architecture
 As shown in below image, following architecture is followed
 - 4 blocks with one initial conv -> conv0-> [CB1]-> [CB2]-> [CB3]-> [OB]
 - Each of CB1, CB2 and CB3 contains
-  - normal conv _ dilated conv with padding
+  - normal conv + dilated conv with padding
   - depthwise conv
   - transition layer -> 1X1 + dilated conv without padding(instead of MP)
 - <b>Also, added input of each block CB1, CB2, CB3 to output of respective block through a skip connection 1X1 layer using stride of 2. 
