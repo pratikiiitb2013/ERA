@@ -20,3 +20,4 @@ Write a new network that
 
 Model Architecture
 ------
+![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/image_architechture.png)
