@@ -158,3 +158,8 @@ Test set: Average loss: 0.4250, Accuracy: 8578/10000 (85.78%)
 
 #### Correct classified images examples
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/corrrect_classified_images.png)
+
+
+# References
+Special thanks to [Rohan Shravan](https://www.linkedin.com/in/rohanshravan/) for his guidance.
+Do checkout his AI courses on [THE SCHOOL OF AI](https://theschoolof.ai/)
