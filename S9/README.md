@@ -34,7 +34,7 @@ Image AUgmentation Impelmetation Examples
 -------
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/augmented_images.png)
 
-#### Model summary((Refer [model code](https://github.com/pratikiiitb2013/ERA/blob/main/S9/model.py) for details)
+#### Model summary(Refer [model code](https://github.com/pratikiiitb2013/ERA/blob/main/S9/model.py) for details)
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
@@ -149,3 +149,6 @@ Loss=0.5892620086669922 Batch_id=390 Accuracy=81.58: 100%|███████�
 
 Test set: Average loss: 0.4250, Accuracy: 8578/10000 (85.78%)
 ```
+
+#### Train/Test accuracy/Loss plots
+![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/graphs.png)
