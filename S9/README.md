@@ -121,3 +121,31 @@ Params size (MB): 0.75
 Estimated Total Size (MB): 12.13
 ----------------------------------------------------------------
 ```
+#### Training Logs
+Reached <b>85.7%</b> accuracy on test images in 100 epochs.
+```
+EPOCH: 95
+Loss=0.5429221987724304 Batch_id=390 Accuracy=81.29: 100%|██████████| 391/391 [00:34<00:00, 11.42it/s]
+
+Test set: Average loss: 0.4401, Accuracy: 8571/10000 (85.71%)
+
+EPOCH: 96
+Loss=0.4267800748348236 Batch_id=390 Accuracy=81.36: 100%|██████████| 391/391 [00:33<00:00, 11.79it/s]
+
+Test set: Average loss: 0.4419, Accuracy: 8525/10000 (85.25%)
+
+EPOCH: 97
+Loss=0.484732449054718 Batch_id=390 Accuracy=81.30: 100%|██████████| 391/391 [00:36<00:00, 10.68it/s]
+
+Test set: Average loss: 0.4782, Accuracy: 8466/10000 (84.66%)
+
+EPOCH: 98
+Loss=0.5143886208534241 Batch_id=390 Accuracy=81.32: 100%|██████████| 391/391 [00:35<00:00, 10.96it/s]
+
+Test set: Average loss: 0.4512, Accuracy: 8523/10000 (85.23%)
+
+EPOCH: 99
+Loss=0.5892620086669922 Batch_id=390 Accuracy=81.58: 100%|██████████| 391/391 [00:40<00:00,  9.76it/s]
+
+Test set: Average loss: 0.4250, Accuracy: 8578/10000 (85.78%)
+```
