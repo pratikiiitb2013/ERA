@@ -34,7 +34,7 @@ Image AUgmentation Impelmetation Examples
 -------
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/augmented_images.png)
 
-#### Model summary
+#### Model summary((Refer [model code](https://github.com/pratikiiitb2013/ERA/blob/main/S9/model.py) for details)
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
