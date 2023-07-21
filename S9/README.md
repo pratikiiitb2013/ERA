@@ -152,3 +152,9 @@ Test set: Average loss: 0.4250, Accuracy: 8578/10000 (85.78%)
 
 #### Train/Test accuracy/Loss plots
 ![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/graphs.png)
+
+#### Wrong classified images examples
+![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/misclassified_images.png)
+
+#### Correct classified images examples
+![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S9/images/corrrect_classified_images.png)
