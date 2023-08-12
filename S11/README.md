@@ -7,3 +7,8 @@
 Assignment Details
 ------
 ![Assignment](https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/assignment.JPG)
+
+Model Architecture
+------
+As shown in below image, Resnet18 architecture is used - 
+<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/model_architecture.png" alt="drawing" width="50%" height="50%"/>
