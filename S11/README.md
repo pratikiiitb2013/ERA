@@ -197,7 +197,7 @@ Test set: Average loss: 0.2487, Accuracy: 9163/10000 (91.63%)
 ```
 
 #### Wrong classified images examples and corresponding GradCam maps
-<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/incorrect_prediction.png" alt="drawing" width="50%" height="50%"/><img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/incorrect_prediction_gradcam.png" alt="drawing" width="50%" height="50%"/>
+<img style="border:1px solid black;" src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/incorrect_prediction.png" alt="drawing" width="50%" height="50%"/><img style="border:1px solid black;" src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/incorrect_prediction_gradcam.png" alt="drawing" width="50%" height="50%"/>
 
 #### Correct classified images examples and corresponding GradCam 
 <img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/correct_prediction.png" alt="drawing" width="50%" height="50%"/>
