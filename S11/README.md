@@ -13,4 +13,5 @@ Model Architecture
 
 As shown in below image, Resnet18 architecture is used. Refer [model code](https://github.com/pratikiiitb2013/ERA/blob/main/S11/models/resnet.py) for details
 
+
 <img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/model_architecture.png" alt="drawing" width="35%" height="35%"/>
