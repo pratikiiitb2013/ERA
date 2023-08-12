@@ -7,17 +7,3 @@
 Assignment Details
 ------
 ![Assignment](https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/assignment.JPG)
-
-
-
-
-
-## Session 11 Assignment question
-![Assignment](https://github.com/gdeotale/ERA/assets/8176219/04bba35a-99e8-475e-98f8-6def65e22379)
-## Cifar training dataset sample
-![Dataset](https://github.com/gdeotale/ERA/assets/8176219/9e557c36-7c06-4754-bd20-67a5798eaf96)
-
-
-
-
-
