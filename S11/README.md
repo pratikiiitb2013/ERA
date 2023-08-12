@@ -197,17 +197,15 @@ Test set: Average loss: 0.2487, Accuracy: 9163/10000 (91.63%)
 ```
 
 #### Wrong classified images examples and corresponding GradCam maps
-<b>Images</b>
-<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/correct_prediction.png" alt="drawing" width="50%" height="50%"/>
-<b>Gradcam</b>
-<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/correct_prediction_gradcam.png" alt="drawing" width="50%" height="50%"/>
+<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/incorrect_prediction.png" alt="drawing" width="50%" height="50%"/>
+<br>
+<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/incorrect_prediction_gradcam.png" alt="drawing" width="50%" height="50%"/>
 
 
 #### Correct classified images examples and corresponding GradCam 
-<b>Images</b>
-<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/incorrect_prediction.png" alt="drawing" width="50%" height="50%"/>
-<b>Gradcam</b>
-<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/incorrect_prediction_gradcam.png" alt="drawing" width="50%" height="50%"/>
+<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/correct_prediction.png" alt="drawing" width="50%" height="50%"/>
+<br>
+<img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/correct_prediction_gradcam.png" alt="drawing" width="50%" height="50%"/>
 
 
 # References
