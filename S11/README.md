@@ -10,6 +10,7 @@ Assignment Details
 
 Model Architecture
 ------
-As shown in below image, Resnet18 architecture is used - 
+
+As shown in below image, Resnet18 architecture is used
 
 <img src="https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/model_architecture.png" alt="drawing" width="25%" height="25%"/>
