@@ -86,3 +86,8 @@ Params size (MB): 42.63
 Estimated Total Size (MB): 53.89
 ----------------------------------------------------------------
 ```
+
+Lr finder curve to determine max_lr
+------
+As shown below, with the help of LR finder a Max LR of <b>5.22E-02</b> is choosen to train the model through one-cycle LR policy
+![alt text](https://github.com/pratikiiitb2013/ERA/blob/main/S11/images/LR_finder.png)
